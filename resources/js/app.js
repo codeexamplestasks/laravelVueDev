@@ -21,6 +21,7 @@ window.Vue = require('vue');
 
 //Vue.component('index', require('./components/index.vue').default);
 Vue.component('v-header', require('./components/Header.vue').default);
+Vue.component('v-content', require('./components/Content.vue').default);
 
 
 /**
@@ -29,6 +30,10 @@ Vue.component('v-header', require('./components/Header.vue').default);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+import router from "./router";
+
 const app = new Vue({
     el: '#app',
+    // Можно просто router(JS позволяет)
+    router: router,
 });

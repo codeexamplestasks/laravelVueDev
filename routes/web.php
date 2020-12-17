@@ -13,9 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+// Route::get('/', function () {
+//     return view('index');
+// });
+
+// Перенаправляем в index
+Route::get('/{any}', function(){
     return view('index');
-});
+})->where('any', '.*');
 
 //uth::routes();
 
