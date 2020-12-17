@@ -3,8 +3,9 @@ import Vue from 'vue';
 
 Vue.use(vueRouter);
 
-import Index from "./views/Index"
-import Dev from "./views/Dev"
+import Index from "./views/Index";
+import Dev from "./views/Dev";
+import Post from "./views/Post";
 
 const routes = [
     {
@@ -14,6 +15,10 @@ const routes = [
     {
         path: "/dev",
         component: Dev
+    },
+    {
+        path: "/post/:id",
+        component: Post
     }
 ];
 

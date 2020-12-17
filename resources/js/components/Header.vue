@@ -17,11 +17,10 @@
         </a>
       </li>
         <li v-for="link in links" >
-          
+
             <router-link :to="link.href">
               <a class="nav-link">{{ link.title }}</a>
               </router-link>
-          
         </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
