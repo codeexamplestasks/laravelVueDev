@@ -2048,11 +2048,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Index",
@@ -37933,8 +37928,14 @@ render._withStripped = true
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {}
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div")
+}
 var staticRenderFns = []
+render._withStripped = true
 
 
 
@@ -53683,8 +53684,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\php\laravelVueDev\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\php\laravelVueDev\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/sergeev/web/L8/laravue01/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/sergeev/web/L8/laravue01/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

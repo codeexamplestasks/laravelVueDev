@@ -1,10 +1,5 @@
 <template>
-    <post
-        v-for="post in posts"
-        :title="post.title"
-        :body="post.body"
-        :date="post.created_at"
-    />
+
 </template>
 
 <script>
